@@ -4,6 +4,7 @@ Resource          ../Locators/Login_locators.robot
 Resource          ../Resources/Login_credentials.robot
 Resource          ../Keywords/Login Keywords.robot
 Resource          ../Keywords/Homepage Keywords.robot
+Library           ExcelRobot
 
 *** Test Cases ***
 Login With Valid Credentials
