@@ -22,4 +22,4 @@ Submit Login
 
 Logout Should be Visible
     Sleep    5
-    Element Should Be Enabled    ${logoutLink}
+    Element Should Be Visible    ${logoutLink}
