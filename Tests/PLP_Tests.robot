@@ -12,3 +12,11 @@ Is FIlter Working
     Click Notebooks Subcat
     Filter Notebooks
     Select All Filtered
+
+Remove FIlter
+    Click Computers Cat
+    Click Notebooks Subcat
+    Filter Notebooks
+    Select All Filtered
+    Remove Filter
+    Count Products

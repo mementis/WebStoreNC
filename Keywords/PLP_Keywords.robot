@@ -26,3 +26,14 @@ Select All Filtered
     Log    ${products}
     ${count} =    Get Element Count    ${allListedLoc}
     Should Be True    ${count} < 2
+
+Remove Filter
+    Sleep    3
+    Wait Until Element Is Visible    ${removeFilterButton}
+    Click Element    ${removeFilterButton}
+
+Count Products
+    ${products}=    Get WebElements    ${allListedLoc}
+    Log    ${products}
+    ${count} =    Get Element Count    ${allListedLoc}
+    Should Be True    ${count} > 1
