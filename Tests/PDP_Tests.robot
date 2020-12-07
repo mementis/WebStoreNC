@@ -14,3 +14,11 @@ Open_PDP
     Click Notebooks Subcat
     Click Asus N551
     AsusPDP displays
+
+WriteAndSubmit_Review_AsAGuest
+    Click Electronics Cat
+    Click CameraPhoto SubCat
+    Click LeicaT
+    LeicaTPDP displays
+    AddReview for LeicaT
+    Guest Review Not Possible
