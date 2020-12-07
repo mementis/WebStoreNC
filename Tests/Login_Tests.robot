@@ -15,7 +15,7 @@ ${invalid-email-format}    //*[@id="Email-error"]
 *** Test Cases ***
 Valid Credentials
     [Setup]    Open Homepage
-    Steps Login
+    Click Login
     Login Title Should be
     Populate Email
     Populate Password
